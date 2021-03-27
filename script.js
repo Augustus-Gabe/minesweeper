@@ -119,8 +119,8 @@ const revealNearBlanks = (cell) => {
 }
 
 const checkGameStatus = (cell) => {
-    (!GAME_OVER) && isGameOver(cell) && console.log("YOU LOST");
-    (!GAME_WON) && isGameWon() && console.log("YOU WON");
+    (!GAME_OVER) && isGameOver(cell) && alert("YOU LOST");
+    (!GAME_WON) && isGameWon() && alert("YOU WON");
 }
 
 const isGameOver = (cell) => {
