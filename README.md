@@ -1,2 +1,2 @@
 # minesweeper
-Minesweeper em JS para exercitar a lógica de programação
+Minesweeper em JS para exercitar lógica de programação
