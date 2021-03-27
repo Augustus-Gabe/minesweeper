@@ -1,0 +1,21 @@
+.no-reveal {
+    display: none;
+}
+
+.reveal,  {
+    display: block;
+}
+
+.cell {
+    background-color: #ddd;
+}
+
+.cell:hover {
+    background-color: rgb(119, 125, 219);
+    cursor: pointer;
+}
+
+.cell:active, .reveal, .reveal>* {
+    background-color: #fff;
+    display: block;
+}
